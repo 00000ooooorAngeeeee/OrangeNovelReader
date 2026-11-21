@@ -1,0 +1,8 @@
+com.orange.novel.reader.app-pngs-0 D:\VsCodeWorkPlace\OrangeNovelReader\app\build\generated\res\pngs\release
+com.orange.novel.reader.app-updated_navigation_xml-1 D:\VsCodeWorkPlace\OrangeNovelReader\app\build\generated\updated_navigation_xml\release
+com.orange.novel.reader.app-packageReleaseResources-2 D:\VsCodeWorkPlace\OrangeNovelReader\app\build\intermediates\incremental\release\packageReleaseResources\merged.dir
+com.orange.novel.reader.app-packageReleaseResources-3 D:\VsCodeWorkPlace\OrangeNovelReader\app\build\intermediates\incremental\release\packageReleaseResources\stripped.dir
+com.orange.novel.reader.app-release-4 D:\VsCodeWorkPlace\OrangeNovelReader\app\build\intermediates\merged_res\release\mergeReleaseResources
+com.orange.novel.reader.app-main-5 D:\VsCodeWorkPlace\OrangeNovelReader\app\src\main\res
+com.orange.novel.reader.app-release-6 D:\VsCodeWorkPlace\OrangeNovelReader\app\src\release\res
+gradleHome-0 C:\Users\Maa\.gradle

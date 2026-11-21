@@ -1,0 +1,36 @@
+package com.orange.novel.reader.ui;
+
+import android.content.Context;
+import android.util.AttributeSet;
+import android.widget.FrameLayout;
+
+/**
+ * 固定 3:4.2 的封面容器：让封面、遮罩、勾选角标都在同一块确定尺寸里对齐，
+ * 避免 match_parent 的遮罩在 wrap_content 的 FrameLayout 里把条目撑变形。
+ */
+public class CoverBox extends FrameLayout {
+
+    public static final float RATIO = 1.40f;
+
+    public CoverBox(Context c) {
+        super(c);
+    }
+
+    public CoverBox(Context c, AttributeSet a) {
+        super(c, a);
+    }
+
+    public CoverBox(Context c, AttributeSet a, int defStyle) {
+        super(c, a, defStyle);
+    }
+
+    @Override
+    protected void onMeasure(int widthSpec, int heightSpec) {
+        int w = MeasureSpec.getSize(widthSpec);
+        if (w <= 0) w = 320;
+        int h = Math.round(w * RATIO);
+        super.onMeasure(
+                MeasureSpec.makeMeasureSpec(w, MeasureSpec.EXACTLY),
+                MeasureSpec.makeMeasureSpec(h, MeasureSpec.EXACTLY));
+    }
+}

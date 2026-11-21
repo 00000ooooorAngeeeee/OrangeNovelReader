@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <title>橘子小说 Logo</title>
+  <desc>橘子小说 App 图标：白色圆角方形底板，下方为橘子横切面半圆（金橙渐变、白色内皮环、放射状橘瓣间隙与果芯），右上角橙色燕尾书签象征阅读，构图风格对标番茄小说。</desc>
+  <defs>
+    <linearGradient id="orangeBody" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFB300"/>
+      <stop offset="0.55" stop-color="#FF8F00"/>
+      <stop offset="1" stop-color="#E65100"/>
+    </linearGradient>
+  </defs>
+
+  <!-- 白色圆角方形底板（App 图标容器） -->
+  <rect x="32" y="32" width="960" height="960" rx="220" fill="#FFFFFF" stroke="#E6E6E6" stroke-width="4"/>
+
+  <!-- 橘子横切面半圆主体 -->
+  <path d="M 182 436 A 330 330 0 0 0 842 436 Z" fill="url(#orangeBody)"/>
+
+  <!-- 白色内皮环（沿下弧，橘子切面特征） -->
+  <path d="M 182 436 A 330 330 0 0 0 842 436 L 788 436 A 276 276 0 0 1 236 436 Z" fill="#FFFFFF"/>
+
+  <!-- 橘瓣白色间隙：从果芯放射出 5 条分隔，形成 6 瓣 -->
+  <g stroke="#FFFFFF" stroke-width="22" stroke-linecap="round">
+    <line x1="512" y1="436" x2="748" y2="572"/>
+    <line x1="512" y1="436" x2="648" y2="672"/>
+    <line x1="512" y1="436" x2="512" y2="708"/>
+    <line x1="512" y1="436" x2="376" y2="672"/>
+    <line x1="512" y1="436" x2="276" y2="572"/>
+  </g>
+
+  <!-- 中心白色果芯 -->
+  <circle cx="512" cy="436" r="46" fill="#FFFFFF"/>
+
+  <!-- 右上角燕尾书签（阅读符号） -->
+  <path d="M 700 166 Q 700 150 716 150 L 816 150 Q 832 150 832 166 L 832 400 L 766 334 L 700 400 Z" fill="#FB8C00"/>
+</svg>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">橘子小说</string>
+    <string name="shelf">书架</string>
+    <string name="import_epub">导入 EPUB</string>
+    <string name="empty_title">书架还是空的</string>
+    <string name="empty_desc">点击右上角导入本地 EPUB 文件\n支持 TXT 以外的常见电子书格式，如 .epub</string>
+    <string name="catalog">目录</string>
+    <string name="prev_chapter">上一章</string>
+    <string name="next_chapter">下一章</string>
+    <string name="delete">删除</string>
+    <string name="cancel">取消</string>
+    <string name="delete_book_title">删除书籍</string>
+    <string name="delete_book_msg">同时会清除该书的阅读进度，确定删除吗？</string>
+    <string name="importing">正在导入…</string>
+    <string name="loading">正在载入…</string>
+</resources>

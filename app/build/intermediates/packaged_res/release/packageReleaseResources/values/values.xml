@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="accent">#FFFF6B35</color>
+    <color name="bar_bg">#F2161619</color>
+    <color name="divider">#FF232327</color>
+    <color name="ic_launcher_background">#FFFFFFFF</color>
+    <color name="panel_bg">#FF16161A</color>
+    <color name="reader_bg">#FF111112</color>
+    <color name="shelf_bg">#FF0C0C0E</color>
+    <color name="text_primary">#FFE9E9EA</color>
+    <color name="text_secondary">#FF8B8B92</color>
+    <color name="text_tertiary">#FF5C5C63</color>
+    <string name="app_name">橘子小说</string>
+    <string name="cancel">取消</string>
+    <string name="catalog">目录</string>
+    <string name="delete">删除</string>
+    <string name="delete_book_msg">同时会清除该书的阅读进度，确定删除吗？</string>
+    <string name="delete_book_title">删除书籍</string>
+    <string name="empty_desc">点击右上角导入本地 EPUB 文件\n支持 TXT 以外的常见电子书格式，如 .epub</string>
+    <string name="empty_title">书架还是空的</string>
+    <string name="import_epub">导入 EPUB</string>
+    <string name="importing">正在导入…</string>
+    <string name="loading">正在载入…</string>
+    <string name="next_chapter">下一章</string>
+    <string name="prev_chapter">上一章</string>
+    <string name="shelf">书架</string>
+    <style name="FlatIcon">
+        <item name="android:layout_width">44dp</item>
+        <item name="android:layout_height">44dp</item>
+        <item name="android:background">?attr/selectableItemBackgroundBorderless</item>
+        <item name="android:scaleType">center</item>
+    </style>
+    <style name="Orange.Dialog" parent="Theme.AppCompat.Dialog.Alert">
+        <item name="android:windowBackground">@drawable/bg_dialog</item>
+        <item name="android:textColorPrimary">@color/text_primary</item>
+        <item name="android:textColorSecondary">@color/text_secondary</item>
+        <item name="colorAccent">@color/accent</item>
+        <item name="android:colorAccent">@color/accent</item>
+        <item name="android:windowMinWidthMajor">72%</item>
+        <item name="android:windowMinWidthMinor">86%</item>
+    </style>
+    <style name="Theme.Orange" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@color/shelf_bg</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
+        <item name="android:textColorPrimary">@color/text_primary</item>
+        <item name="android:textColorSecondary">@color/text_secondary</item>
+        <item name="android:colorAccent">@color/accent</item>
+        <item name="colorAccent">@color/accent</item>
+        <item name="colorPrimary">@color/shelf_bg</item>
+        <item name="colorControlActivated">@color/accent</item>
+        <item name="android:colorEdgeEffect">@color/accent</item>
+        <item name="alertDialogTheme">@style/Orange.Dialog</item>
+        <item name="android:alertDialogTheme">@style/Orange.Dialog</item>
+        <item name="android:windowAnimationStyle">@null</item>
+    </style>
+    <style name="Theme.Orange.Reader" parent="Theme.Orange">
+        <item name="android:windowBackground">@color/reader_bg</item>
+    </style>
+</resources>
